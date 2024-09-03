@@ -367,20 +367,25 @@ a{
         </div>
     </div>
     </div>
-   <script>
-    
+<script>
     function togglePopup(){
         let popup = document.querySelector("#popup");
         popup.classList.toggle("open")
-
         let nomUtilisateur = document.querySelector("#username").value
         document.getElementById("1").innerHTML=nomUtilisateur 
-
         let motDePasse = document.querySelector("#mdp").value
         document.getElementById("2").innerHTML=motDePasse
-    }
+        }  
+</script>
 
-   </script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4CQ02YWYDM"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-4CQ02YWYDM');
+</script>
 </body>
 
 </html>
